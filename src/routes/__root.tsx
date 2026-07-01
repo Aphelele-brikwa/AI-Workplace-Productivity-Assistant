@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Nimbus AI — Workplace Productivity Assistant" },
+      { name: "description", content: "AI Workplace Productivity Assistant automates common tasks for professionals using AI." },
+      { property: "og:description", content: "AI Workplace Productivity Assistant automates common tasks for professionals using AI." },
+      { name: "twitter:description", content: "AI Workplace Productivity Assistant automates common tasks for professionals using AI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/85df657a-db3b-4f82-8763-f736132cf0ef/id-preview-64340703--cf6a5533-6e27-44ff-900b-594efeb2ff06.lovable.app-1782918372792.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/85df657a-db3b-4f82-8763-f736132cf0ef/id-preview-64340703--cf6a5533-6e27-44ff-900b-594efeb2ff06.lovable.app-1782918372792.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
