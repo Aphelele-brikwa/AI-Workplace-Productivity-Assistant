@@ -17,6 +17,7 @@ export function AppShell({ children }: { children?: ReactNode }) {
           </main>
         </SidebarInset>
       </div>
+      <Toaster position="top-right" richColors />
     </SidebarProvider>
   );
 }
